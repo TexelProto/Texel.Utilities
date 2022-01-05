@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Protos
+namespace Texel.Utilities
 {
 	public struct Unit { }
 

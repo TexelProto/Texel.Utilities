@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Protos
+namespace Texel.Utilities
 {
 	public abstract class AsyncEventDispatcher<TDel, TData>
 		where TDel : Delegate
