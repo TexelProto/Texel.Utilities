@@ -2,16 +2,26 @@
 <package>
   <metadata>
     <id>Texel.Utilities</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Texel.Utilities</title>
     <authors>Texel</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/TexelProto/Texel.Utilities</projectUrl>
     <description>Small collection of utility classes</description>
+    <dependencies>
+      <group targetFramework="net47"/>
+      <group targetFramework="net48"/>
+      <group targetFramework="netcoreapp3.1"/>
+      <group targetFramework="netstandard2.1"/>
+    </dependencies>
   </metadata>
   <files>
     <file src="LICENSE"/>
     <file src="README.md"/>
+    <file src="bin/Release/net47/Texel.Utilities.dll" target="lib/net47"/>
+    <file src="bin/Release/net48/Texel.Utilities.dll" target="lib/net48"/>
+    <file src="bin/Release/netcoreapp3.1/Texel.Utilities.dll" target="lib/netcoreapp3.1"/>
+    <file src="bin/Release/netstandard2.1/Texel.Utilities.dll" target="lib/netstandard2.1"/>
   </files>
 </package>
